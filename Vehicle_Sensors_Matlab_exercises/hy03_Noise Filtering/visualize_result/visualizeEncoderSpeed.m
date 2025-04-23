@@ -10,7 +10,8 @@ function [] = visualizeEncoderSpeed(t,vehicleSpeed, estimatedSpeedCounting, esti
     xlabel('Time (seconds)');
     ylabel('Velocity (m/s)');
     
-    % legend('gt speed', 'estimated speed with pulse counting', 'estimated speed with pulse timing');
-    legend("show");
+    legend('gt speed', 'estimated speed with pulse counting', 'estimated speed with pulse timing', 'estimated speed with pulse hybrid method');
+    
+    % legend("show");
 end
 
